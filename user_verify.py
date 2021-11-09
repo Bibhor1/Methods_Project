@@ -5,7 +5,7 @@ import pickle
 # file.close()
 file = open('users&pass.txt', 'r')
 user = file.readlines()
-complete = True
+complete = False
 
 while not complete:
     username = input("UserName: ")
